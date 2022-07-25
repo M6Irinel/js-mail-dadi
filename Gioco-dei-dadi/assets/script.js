@@ -1,7 +1,10 @@
 
+// Prendiamo l'elemento da far azzionare il codice
 const button = document.querySelector('button');
 
+// al nostro click parte la funzione
 button.addEventListener('click', () => {
+    // resetiamo la console
     console.clear();
 
     // Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.

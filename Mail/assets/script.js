@@ -16,7 +16,7 @@ if (EMAIL_DEL_UTENTE === "") {
 }
 // SE la lunghezza stringa del prompt e minore della lunghezza chiesta, manda un messaggio nella console
 else if(EMAIL_DEL_UTENTE.length < CARRATTERI_MINIMI.length){
-    console.log('Questa non è una EMAIL. E troppo corta per essere un EMAIL');
+    console.log('Questa non è una EMAIL. E troppo corta per essere una EMAIL');
 }
 else {
     // *controlla che sia nella lista di chi può accedere

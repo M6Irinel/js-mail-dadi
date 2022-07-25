@@ -12,10 +12,12 @@ if(isNaN(numero_generatore_del_array)){
     console.log('Attenzione: Quello che hai inserito nella schermata di numeri per la generazione del array non e andato a buon fine');
 }
 
+// SE il valore e nullo, manda alla console la problemma
 if(isNaN(estrazione)){
     console.log('Attenzione: Quello che hai inserito nella shermata per l\'estrazione non e andato a buon fine');
 }
 
+// SE i valori sono diverse da NAN di entranbe variabili:
 if(!isNaN(numero_generatore_del_array) && !isNaN(estrazione)){
     // Manda alla console il valore del utente
     console.log(`La tua array e stata creata da ${numero_generatore_del_array} elementi`);
